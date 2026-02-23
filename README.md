@@ -20,6 +20,25 @@ This project demonstrates an end-to-end SQL data analysis workflow starting from
 
 ---
 
+## Project Workflow
+
+The following workflow outlines the key steps in the project:
+
+- Created structured PostgreSQL tables for CovidDeaths and CovidVaccinations datasets
+- Imported CSV datasets and verified successful data loading
+- Analysed infection rate and death percentage across countries
+- Identified countries and continents with highest COVID-19 impact
+- Calculated global daily totals of cases and deaths
+- Joined deaths and vaccination datasets for combined analysis
+- Computed rolling vaccination totals using SQL Window Functions
+- Created temporary table and view to analyse percentage of population vaccinated
+
+<p align="center">
+  <img src="images/workflow.png" alt="Project Workflow" width="700"/>
+</p>
+
+---
+
 ## Dataset Description
 
 The datasets used in this project contain information related to COVID-19 cases, deaths, and vaccinations across different countries.
@@ -39,7 +58,6 @@ The dataset contains:
 - Hospital Patients
 - Reproduction Rate
 
----
 
 ### CovidVaccinations Dataset
 
@@ -71,25 +89,6 @@ which makes it suitable for performing pandemic trend analysis using SQL.
 
 <p align="center">
   <img src="images/schema.png" alt="Database Schema" width="700"/>
-</p>
-
----
-
-## Project Workflow
-
-The following workflow outlines the key steps in the project:
-
-- Created structured PostgreSQL tables for CovidDeaths and CovidVaccinations datasets
-- Imported CSV datasets and verified successful data loading
-- Analysed infection rate and death percentage across countries
-- Identified countries and continents with highest COVID-19 impact
-- Calculated global daily totals of cases and deaths
-- Joined deaths and vaccination datasets for combined analysis
-- Computed rolling vaccination totals using SQL Window Functions
-- Created temporary table and view to analyse percentage of population vaccinated
-
-<p align="center">
-  <img src="images/workflow.png" alt="Project Workflow" width="700"/>
 </p>
 
 ---
