@@ -24,17 +24,8 @@ This project demonstrates an end-to-end SQL data analysis workflow starting from
 
 The following workflow outlines the key steps in the project:
 
-- Created structured PostgreSQL tables for CovidDeaths and CovidVaccinations datasets
-- Imported CSV datasets and verified successful data loading
-- Analysed infection rate and death percentage across countries
-- Identified countries and continents with highest COVID-19 impact
-- Calculated global daily totals of cases and deaths
-- Joined deaths and vaccination datasets for combined analysis
-- Computed rolling vaccination totals using SQL Window Functions
-- Created temporary table and view to analyse percentage of population vaccinated
-
 <p align="center">
-  <img src="images/workflow.png" alt="Project Workflow" width="700"/>
+  <img src="images/workflow.png" alt="Project Workflow" width="400"/>
 </p>
 
 ---
@@ -123,7 +114,7 @@ EDA was performed to understand:
 Example showing countries with highest death count:
 
 <p align="center">
-  <img src="images/example.png" alt="Countries with Highest Death Count" width="700"/>
+  <img src="images/example.png" alt="Countries with Highest Death Count" width="300"/>
 </p>
 
 ---
